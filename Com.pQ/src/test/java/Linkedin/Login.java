@@ -17,8 +17,8 @@ public class Login {
 	@Test(priority = 1)
 	public void Log() {
 		
-		driver.findElement(By.id("username")).sendKeys("harika.pharm87@gmail.com");
-		driver.findElement(By.id("password")).sendKeys("Vam@1989");
+		driver.findElement(By.id("username")).sendKeys("username");
+		driver.findElement(By.id("password")).sendKeys("password");
 		driver.findElement(By.tagName("button")).click();
 	}
 
